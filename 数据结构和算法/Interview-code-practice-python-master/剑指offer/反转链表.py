@@ -18,6 +18,7 @@ pHead = tmp        把之前保存的下一个节点指针再给当前节点接�
 #         self.val = x
 #         self.next = None
 class Solution:
+
     # 返回ListNode
     def ReverseList(self, pHead):
         # write code here
@@ -30,6 +31,3 @@ class Solution:
             pre = pHead
             pHead = tmp
         return pre
-
-
-
